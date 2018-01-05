@@ -24,11 +24,11 @@ The full details of the project implementation (developed in C++) and the design
 
 ## Running the Code
 
-* **Ipopt and CppAD:** Please refer to [this document](https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md) for installation instructions.
-* [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page). This is already part of the repo so you shouldn't have to worry about it.
+* All the source code of the project is available [here](https://github.com/wafarag/Track-Maneuvering-using-MPC-Control/tree/master/src).
+
+* The project uses both "Ipopt" and "CppAD" libraries. Please refer to [this document](https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md) for installation instructions. "Ipopt" is a comprehensive library to solve an optimization problem using Interior-Point techniques given an optimization function and a set of constraints. "CppAD" is another comprehensive library to calculate gradients (deriavatives) and make differerntiations.
+
+* [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page). This is a comprehensive library for matrix manipulation. Please unzip [this file](https://github.com/wafarag/Track-Maneuvering-using-MPC-Control/blob/master/src/Eigen-3.3.zip) in the same "src" directory before using the code.
+
 * Simulator. You can download these from the [releases tab](https://github.com/udacity/self-driving-car-sim/releases).
-
-All the source code of the project is available [here](https://github.com/wafarag/Track-Maneuvering-using-PID-Control/tree/master/src).
-
-This repository includes as well some [testing](https://github.com/wafarag/Track-Maneuvering-using-PID-Control/blob/master/PID-Testing-Results.rtf) and [results files](https://github.com/wafarag/Track-Maneuvering-using-PID-Control/blob/master/Results.txt). 
 
